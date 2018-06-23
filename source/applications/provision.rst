@@ -38,8 +38,8 @@ Advanced > `Default Settings`_
 In the Provisioning section, there are a few key options that have to be set in order to turn auto provisioning on.
 
 * **enabled** Must be enabled and set to **value true** and **enabled True**.  It is disabled by default.
-* **http_auth_username** Must be enabled and set to **value true** and **enabled True**.  It is disabled by default. Be sure to use a strong username.
-* **http_auth_password** Must be enabled and set to **value true** and **enabled True**.  It is disabled by default. Be sure to use a strong password.
+* **http_auth_username** Must be enabled and set **Value** to **Username** and **enabled** to **True**.  It is disabled by default. Be sure to use a strong username. (Replace **Username** with a non special character username)
+* **http_auth_password** Must be enabled and set **Value** to **Pass** and **enabled** to **True**.  It is disabled by default. Be sure to use a strong password. (Replace **Pass** with a non special character password)
 * **cidr** Optional security option to allow configuration request limited to specific IP version 4 ranges. Type array allows multiple ranges of IP addresses.
 
 
